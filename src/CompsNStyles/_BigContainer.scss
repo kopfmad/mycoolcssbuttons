@@ -1,0 +1,9 @@
+@use './consts' as *;
+
+.BigContainer {
+  background-image: linear-gradient($primary-color, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: $font-big;
+  min-height: 100px;
+}
