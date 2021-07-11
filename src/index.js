@@ -18,16 +18,16 @@ ReactDOM.render(
       <BottomContainer>
         <MyButton id="button1"></MyButton>
         <MyButton id="button2"></MyButton>
-        <MyButton id="button1"></MyButton>
-        <MyButton id="button2"></MyButton>
-        <MyButton id="button1"></MyButton>
-        <MyButton id="button2"></MyButton>
-        <MyButton id="button1"></MyButton>
-        <MyButton id="button2"></MyButton>
-        <MyButton id="button1"></MyButton>
-        <MyButton id="button2"></MyButton>
-        <MyButton id="button1"></MyButton>
-        <MyButton id="button2"></MyButton>
+        <MyButton id="button3"></MyButton>
+        <MyButton id="button4"></MyButton>
+        <MyButton id="button5"></MyButton>
+        <MyButton id="button6"></MyButton>
+        <MyButton id="button7"></MyButton>
+        <MyButton id="button8"></MyButton>
+        <MyButton id="button9"></MyButton>
+        <MyButton id="button10"></MyButton>
+        <MyButton id="button11"></MyButton>
+        <MyButton id="button12"></MyButton>
       </BottomContainer>
     </BigContainer>
   </React.StrictMode>,
