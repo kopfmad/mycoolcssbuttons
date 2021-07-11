@@ -24,6 +24,10 @@ ReactDOM.render(
         <MyButton id="button2"></MyButton>
         <MyButton id="button1"></MyButton>
         <MyButton id="button2"></MyButton>
+        <MyButton id="button1"></MyButton>
+        <MyButton id="button2"></MyButton>
+        <MyButton id="button1"></MyButton>
+        <MyButton id="button2"></MyButton>
       </BottomContainer>
     </BigContainer>
   </React.StrictMode>,
