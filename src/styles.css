@@ -24,7 +24,7 @@
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
-  height: 20rem;
+  height: 25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 5vh;
+  overflow: hidden;
 }
 
 .upper_my {
@@ -75,5 +75,38 @@
   min-height: 67vh;
   grid-column: 2/3;
   grid-row: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.MyButton {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px black solid;
+  -webkit-box-shadow: 3px 3px 3px black;
+          box-shadow: 3px 3px 3px black;
+  display: grid;
+  place-items: center;
+  background-color: greenyellow;
+  margin: 2rem;
+}
+.MyButton p {
+  font-size: 2rem;
+  font-family: "Otomanopee One";
+}
+
+#button1 {
+  background-color: hotpink;
+}
+
+#button1:hover {
+  background-color: red;
 }
 /*# sourceMappingURL=styles.css.map */

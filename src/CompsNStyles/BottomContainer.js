@@ -1,5 +1,5 @@
 import '../styles.css'
 
-export default function BottomContainer() {
-  return <div className="BottomContainer"></div>
+export default function BottomContainer(props) {
+  return <div className="BottomContainer">{props.children}</div>
 }

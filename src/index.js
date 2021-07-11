@@ -6,6 +6,7 @@ import './styles.css'
 import BigContainer from './CompsNStyles/BigContainer'
 import UpperContainer from './CompsNStyles/UpperContainer'
 import BottomContainer from './CompsNStyles/BottomContainer'
+import MyButton from './CompsNStyles/MyButton'
 ////////ITEMS////////////
 
 import reportWebVitals from './reportWebVitals'
@@ -14,7 +15,16 @@ ReactDOM.render(
   <React.StrictMode>
     <BigContainer>
       <UpperContainer />
-      <BottomContainer></BottomContainer>
+      <BottomContainer>
+        <MyButton id="button1"></MyButton>
+        <MyButton id="button2"></MyButton>
+        <MyButton id="button1"></MyButton>
+        <MyButton id="button2"></MyButton>
+        <MyButton id="button1"></MyButton>
+        <MyButton id="button2"></MyButton>
+        <MyButton id="button1"></MyButton>
+        <MyButton id="button2"></MyButton>
+      </BottomContainer>
     </BigContainer>
   </React.StrictMode>,
   document.getElementById('root')
