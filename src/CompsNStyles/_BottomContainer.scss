@@ -1,0 +1,7 @@
+@use './consts' as *;
+
+.BottomContainer {
+  min-height: 67vh;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}

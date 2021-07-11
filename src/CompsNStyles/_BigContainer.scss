@@ -1,9 +1,15 @@
 @use './consts' as *;
 
 .BigContainer {
-  background-image: linear-gradient($primary-color, red);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: $font-big;
-  min-height: 100px;
+  min-height: 860px;
+  min-width: 300px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(135deg, #ffdee9 0%, #b5fffc 100%);
+  display: grid;
+  grid-template-columns: minmax(1rem, 1fr) minmax(100px, 1300px) minmax(
+      1rem,
+      1fr
+    );
+  grid-template-rows: minmax(50px, min-content) minmax(50px, min-content);
 }

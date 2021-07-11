@@ -1,12 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './styles.css'
+
+////////ITEMS////////////
 import BigContainer from './CompsNStyles/BigContainer'
+import UpperContainer from './CompsNStyles/UpperContainer'
+import BottomContainer from './CompsNStyles/BottomContainer'
+////////ITEMS////////////
+
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BigContainer />
+    <BigContainer>
+      <UpperContainer />
+      <BottomContainer></BottomContainer>
+    </BigContainer>
   </React.StrictMode>,
   document.getElementById('root')
 )

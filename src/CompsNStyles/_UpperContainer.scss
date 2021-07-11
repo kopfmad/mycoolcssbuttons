@@ -1,0 +1,43 @@
+@use './consts' as *;
+
+.UpperContainer {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.upper_my {
+  color: rgb(206, 98, 182);
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: $font-w3;
+}
+
+.upper_cool {
+  color: rgb(126, 84, 223);
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: $font-w2;
+}
+
+.upper_css {
+  color: rgb(94, 134, 209);
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-family: $font-w1;
+}
+
+.upper_buttons {
+  color: rgb(114, 20, 20);
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: $font-w4;
+  padding: 1rem;
+  border: 2px solid rgb(114, 20, 20);
+}

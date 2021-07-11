@@ -1,5 +1,5 @@
-import '../../src/styles.css'
+import '../styles.css'
 
-export default function BigContainer() {
-  return <div className="BigContainer">Aqui é nois</div>
+export default function BigContainer(props) {
+  return <div className="BigContainer">{props.children}</div>
 }
