@@ -473,4 +473,61 @@ a:visited {
   -webkit-transform: scale(0.01) translateX(310px);
           transform: scale(0.01) translateX(310px);
 }
+
+#button12 {
+  overflow: visible;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#button12::before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translateY(-50%) translateX(-150%);
+          transform: translateY(-50%) translateX(-150%);
+  background-color: red;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+#button12::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%) translateX(150%);
+          transform: translateY(-50%) translateX(150%);
+  background-color: blue;
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+#button12:hover {
+  background-color: purple;
+  color: white;
+}
+
+#button12:hover::before {
+  -webkit-transform: translateY(-50%) translateX(225%);
+          transform: translateY(-50%) translateX(225%);
+  opacity: 0;
+}
+
+#button12:hover::after {
+  -webkit-transform: translateY(-50%) translateX(-225%);
+          transform: translateY(-50%) translateX(-225%);
+  opacity: 0;
+}
 /*# sourceMappingURL=styles.css.map */
