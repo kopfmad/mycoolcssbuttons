@@ -293,4 +293,92 @@ a:visited {
   -webkit-transform: translateX(90%) rotate(45deg);
           transform: translateX(90%) rotate(45deg);
 }
+
+#button7 {
+  background-color: black;
+}
+
+#button7::before {
+  content: "Hover me";
+  background-color: #05056b;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: -100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#button7::after {
+  content: "Hover me";
+  background-color: #05056b;
+  color: white;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#button7:hover::before {
+  top: 0;
+  left: 0%;
+}
+
+#button7:hover::after {
+  top: -100%;
+  left: 100%;
+}
+
+#button8::before {
+  background-color: #303030;
+  color: white;
+  content: "Hover Me";
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#button8:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+#button9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec21ba;
+  border-radius: 0 0 50% 50%;
+  height: 0%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: -1;
+}
+
+#button9:hover::before {
+  height: 190%;
+}
 /*# sourceMappingURL=styles.css.map */
