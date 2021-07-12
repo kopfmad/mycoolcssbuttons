@@ -109,6 +109,10 @@ a:visited {
   overflow: hidden;
 }
 
+#button1 {
+  background-color: #7878e9;
+}
+
 #button1::before {
   content: "";
   position: absolute;
@@ -134,6 +138,8 @@ a:visited {
 #button2 {
   -webkit-transition: color 0.3s ease-in-out 0.3s;
   transition: color 0.3s ease-in-out 0.3s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f77d7d), to(#7c0b92));
+  background-image: linear-gradient(#f77d7d, #7c0b92);
 }
 
 #button2::before {
@@ -220,5 +226,28 @@ a:visited {
 #button4:hover {
   -webkit-transform: scaleX(1.2);
           transform: scaleX(1.2);
+}
+
+#button5 {
+  background-image: radial-gradient(#525204, yellow);
+}
+
+#button5::after {
+  position: absolute;
+  content: "GOOD";
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+  background-image: radial-gradient(black, gray);
+  color: white;
+}
+
+#button5:hover::after {
+  top: 0;
 }
 /*# sourceMappingURL=styles.css.map */
