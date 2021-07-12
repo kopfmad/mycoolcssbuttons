@@ -26,7 +26,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: brown;
+  background-image: radial-gradient(rgb(85, 187, 85), green);
   transition: all 0.2s;
   z-index: -1;
   transform-origin: bottom left;
@@ -114,7 +114,19 @@
 //////////////////////////////////////////////////////////
 
 ///////////////////////BUTTON 4////////////////////////////
+#button4 {
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-image: linear-gradient(
+    45deg,
+    rgb(216, 97, 97),
+    red,
+    rgb(77, 2, 2)
+  );
+}
 
+#button4:hover {
+  transform: scaleX(1.2);
+}
 //////////////////////////////////////////////////////////
 
 ///////////////////////BUTTON 5////////////////////////////
