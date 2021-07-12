@@ -158,7 +158,42 @@
 //////////////////////////////////////////////////////////
 
 ///////////////////////BUTTON 6////////////////////////////
+#button6 {
+  background-color: darkorange;
+  color: white;
+}
 
+#button6::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.3s ease-in-out;
+}
+
+#button6:hover::before {
+  transform: translateX(100%) rotate(45deg);
+}
+
+#button6::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transform: translateX(-110%) rotate(45deg);
+  transition: all 0.3s ease-in-out;
+}
+
+#button6:hover::after {
+  transform: translateX(90%) rotate(45deg);
+}
 //////////////////////////////////////////////////////////
 
 ///////////////////////BUTTON 7////////////////////////////

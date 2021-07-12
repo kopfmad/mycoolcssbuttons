@@ -28,6 +28,15 @@ ReactDOM.render(
         <MyButton id="button10"></MyButton>
         <MyButton id="button11"></MyButton>
         <MyButton id="button12"></MyButton>
+        <MyButton id="button13"></MyButton>
+        <MyButton id="button14"></MyButton>
+        <MyButton id="button15"></MyButton>
+        <MyButton id="button16"></MyButton>
+        <MyButton id="button17"></MyButton>
+        <MyButton id="button18"></MyButton>
+        <MyButton id="button19"></MyButton>
+        <MyButton id="button20"></MyButton>
+        <MyButton id="button21"></MyButton>
       </BottomContainer>
     </BigContainer>
   </React.StrictMode>,
