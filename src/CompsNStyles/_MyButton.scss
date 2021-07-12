@@ -286,10 +286,89 @@
 //////////////////////////////////////////////////////////
 
 ///////////////////////BUTTON 10////////////////////////////
+#button10 {
+  background-color: cadetblue;
+  overflow: visible;
+}
 
+#button10::before {
+  position: absolute;
+  background-color: rgb(50, 97, 99);
+  color: white;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: 'Hover me';
+  display: grid;
+  place-items: center;
+  transform: rotateX(270deg);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+#button10:hover::before {
+  transform: rotateX(0deg);
+}
 //////////////////////////////////////////////////////////
 
 ///////////////////////BUTTON 11///////////////////////////
+#button11 {
+  color: transparent;
+  overflow: visible;
+}
+
+#button11::before {
+  content: 'Hover Me';
+  background-color: rgb(245, 194, 100);
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.01) translateX(-310px);
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#button11::after {
+  content: 'Hover Me';
+  background-color: wheat;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transform: scale(1) translateX(0%);
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#button11:hover::before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transform: scale(1) translateX(0%);
+}
+
+#button11:hover::after {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.01) translateX(310px);
+}
 
 //////////////////////////////////////////////////////////
 
